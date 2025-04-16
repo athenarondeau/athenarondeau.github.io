@@ -9,4 +9,6 @@ img {
     width: 30%;
 }
 
-h1 {text-align: center;}
+h1 {text-align: center;
+    text-decoration: underline ;
+}
