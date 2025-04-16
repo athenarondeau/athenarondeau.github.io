@@ -1,4 +1,4 @@
-h1 {
+body {
         font-family: "Special Gothic Expanded One", sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -8,6 +8,7 @@ h1 {
 img {
     width: 30%;
 }
+
 li {
         font-family: "Special Gothic Expanded One", sans-serif;
         font-weight: 400;
