@@ -1,14 +1,25 @@
 body {
         font-family: "Special Gothic Expanded One", sans-serif;
-        font-weight: 400;
+        font-weight: 200;
         font-style: normal;
         color: rgb(152, 10, 21);
+        background-color: blanchedalmond;
       }
       
 img {
-    width: 30%;
+    width: 20%;
 }
 
 h1 {text-align: center;
     text-decoration: underline ;
 }
+
+footer {
+    background-color: blanchedalmond;
+    background-repeat: round;
+}
+
+a:link {color:rgb(152, 10, 21)}
+a:visited {color:rgb(10, 60, 70)}
+a:hover {color:blueviolet}
+a:active {color: blue;}
