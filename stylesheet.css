@@ -1,8 +1,9 @@
 body {
         font-family: "Special Gothic Expanded One", sans-serif;
-        font-weight: 400;
+        font-weight: 200;
         font-style: normal;
         color: rgb(152, 10, 21);
+<<<<<<< HEAD
         text-transform: uppercase;
         line-height: normal;
         background-color: rgb(242, 230, 215);
@@ -11,11 +12,19 @@ body {
 img {
     width: 30%;
     height: auto;
+=======
+        background-color: blanchedalmond;
+      }
+      
+img {
+    width: 20%;
+>>>>>>> 59a8a56fe877a8bcfaa4e013cbcc4f27b4081fdb
 }
 
 h1 {text-align: center;
     text-decoration: underline ;
 }
+<<<<<<< HEAD
 li {list-style-type: box; 
 }
 a:link {color: blue}
@@ -23,3 +32,15 @@ a:visited {color: green}
 a:hover {color:blueviolet}
 a:active {color:aquamarine}
 
+=======
+
+footer {
+    background-color: blanchedalmond;
+    background-repeat: round;
+}
+
+a:link {color:rgb(152, 10, 21)}
+a:visited {color:rgb(10, 60, 70)}
+a:hover {color:blueviolet}
+a:active {color: blue;}
+>>>>>>> 59a8a56fe877a8bcfaa4e013cbcc4f27b4081fdb
