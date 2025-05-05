@@ -3,12 +3,23 @@ body {
         font-weight: 400;
         font-style: normal;
         color: rgb(152, 10, 21);
+        text-transform: uppercase;
+        line-height: normal;
+        background-color: rgb(242, 230, 215);
       }
       
 img {
     width: 30%;
+    height: auto;
 }
 
 h1 {text-align: center;
     text-decoration: underline ;
 }
+li {list-style-type: box; 
+}
+a:link {color: blue}
+a:visited {color: green}
+a:hover {color:blueviolet}
+a:active {color:aquamarine}
+
