@@ -1,34 +1,136 @@
 * {
-    margin: 0; 
-    padding: 0;
-}
-
-#wrapper {
-    width: 80%;    
-    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1em;
+    color: rgb(225, 3, 3);
+    line-height: 1.5em;
+    margin:0;
+    padding:0;
 }
 
 body {
-        font-family: "Special Gothic Expanded One", sans-serif;
-        font-weight: 200;
-        font-style: normal;
-        color: rgb(152, 10, 21);
-        background-color: rgb(150, 188, 255);
-        background-image: url(48b5d345137361c83d57d3294be51dda.jpg);
-        
-      }
-      
+    background-color: rgb(253, 253, 253);
+    background-image: url(48b5d345137361c83d57d3294be51dda.jpg);
+    background-repeat: initial;
+    overflow:auto;
+    position:relative;
+}
+
+nav, header, footer {
+    text-align: right;
+    padding-bottom: 2em;
+    width:100%;
+    height: 100%;
+}
+
+article p, footer p, hr {
+    margin-top: 2em;
+}
+
+nav, footer {
+    font-size: .7em;
+}
+
+#wrapper {
+    width: 80%;
+    margin:auto;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color: rgb(253, 253, 253);
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding:1em;
+    white-space: nowrap;
+}
+
+.clearRight {
+    clear:right;
+}
+
+footer ul {
+    margin-top: 2em;
+}
+
 img {
-    width: 20%;
+    width: 100%;
+    height:auto;
 }
 
-h1 {text-align: center;
-    text-decoration: underline ;
+/* Columns */
+
+.columns {float:right;}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* End Columns CSS */
+
+div.expContainer {
+    font-size: .8em;
 }
 
-footer {
-    background-color: rgb(105, 125, 254);
+div.expContainer>h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2em;
+    
 }
+
+div.expContainer>p {
+    width: 50%;
+    padding-bottom: 2em;
+    font-size: 1.2em;
+}
+
+div.expRow {
+    margin-bottom: 2em;
+}
+
+.textPad {
+    padding-right: 2em;
+}
+
+/* Flexbox */
+
+.flexContainer {
+    clear: right;
+    display: flex;
+    justify-content: space-between;
+/*    background-color: blue;*/
+    
+/* PRO TIP: adding background colors and borders can help you visually define the container as you continue to modify and add properties to your stylesheet */
+    
+}
+
+.flexContainer > div {
+/*    background-color: white;*/
+    width: 30%;
+    padding: 1%;
+/*    border: 1px solid black;*/
+    background-color: rgba(255, 255, 255, 0.141)
+    ;
+}
+
+/* Link styles */
 
 a:link {color:rgb(152, 10, 21)}
 a:visited {color:rgb(0, 62, 206)}
