@@ -109,28 +109,24 @@ div.expRow {
     padding-right: 2em;
 }
 
-/* Flexbox */
+
 
 .flexContainer {
     clear: right;
     display: flex;
     justify-content: space-between;
-/*    background-color: blue;*/
-    
-/* PRO TIP: adding background colors and borders can help you visually define the container as you continue to modify and add properties to your stylesheet */
-    
+
+        
 }
 
 .flexContainer > div {
-/*    background-color: white;*/
+
     width: 30%;
     padding: 1%;
-/*    border: 1px solid black;*/
-    background-color: rgba(255, 255, 255, 0.141)
+
+    background-color: rgba(243, 158, 158, 0.141)
     ;
 }
-
-/* Link styles */
 
 a:link {color:rgb(152, 10, 21)}
 a:visited {color:rgb(0, 62, 206)}
