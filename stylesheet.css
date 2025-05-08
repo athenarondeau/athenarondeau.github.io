@@ -1,13 +1,21 @@
-* { margin: 0; 
-    padding: 0;}
-    #wrapper {width: 80%; margin: auto;}
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+#wrapper {
+    width: 80%;    
+    margin: auto;
+}
 
 body {
         font-family: "Special Gothic Expanded One", sans-serif;
         font-weight: 200;
         font-style: normal;
         color: rgb(152, 10, 21);
-        background-color: blanchedalmond;
+        background-color: rgb(150, 188, 255);
+        background-image: url(48b5d345137361c83d57d3294be51dda.jpg);
+        
       }
       
 img {
@@ -19,11 +27,10 @@ h1 {text-align: center;
 }
 
 footer {
-    background-color: blanchedalmond;
-    background-repeat: round;
+    background-color: rgb(105, 125, 254);
 }
 
 a:link {color:rgb(152, 10, 21)}
-a:visited {color:rgb(10, 60, 70)}
-a:hover {color:blueviolet}
-a:active {color: blue;}
+a:visited {color:rgb(0, 62, 206)}
+a:hover {color:rgb(212, 172, 249)}
+a:active {color: rgb(53, 184, 112);}
