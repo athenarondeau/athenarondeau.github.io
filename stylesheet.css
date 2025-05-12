@@ -1,22 +1,25 @@
 * {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
     font-size: 1.1em;
-    color: rgb(225, 3, 3);
+    color: rgb(0, 0, 0);
     line-height: 1.5em;
     margin:0;
     padding:0;
 }
 
 body {
-    background-color: rgb(253, 253, 253);
-    background-image: url(48b5d345137361c83d57d3294be51dda.jpg);
+    background-color: rgb(119, 126, 43);
     background-repeat: initial;
     overflow:auto;
     position:relative;
 }
 
+p {
+    font-size: medium;
+}
+
 nav, header, footer {
-    text-align: right;
+    text-align: center;
     padding-bottom: 2em;
     width:100%;
     height: 100%;
@@ -40,7 +43,6 @@ h1 {
     text-transform: uppercase;
     font-size: 2.5em;
     color: rgb(253, 253, 253);
-    text-decoration: underline;
 }
 
 ul {
@@ -62,11 +64,15 @@ footer ul {
 }
 
 img {
-    width: 100%;
+    width: 70%;
     height:auto;
 }
 
-/* Columns */
+.center {
+    margin:auto;
+    width: 60%;
+    padding: 50px;
+}
 
 .columns {float:right;}
 .col-1 {width: 8.33%;}
@@ -82,7 +88,6 @@ img {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-/* End Columns CSS */
 
 div.expContainer {
     font-size: .8em;
@@ -110,19 +115,16 @@ div.expRow {
 }
 
 
-
 .flexContainer {
     clear: right;
     display: flex;
     justify-content: space-between;
-
-        
 }
 
 .flexContainer > div {
 
     width: 30%;
-    padding: 1%;
+    padding: 10%;
 
     background-color: rgba(243, 158, 158, 0.141)
     ;
@@ -132,3 +134,26 @@ a:link {color:rgb(152, 10, 21)}
 a:visited {color:rgb(0, 62, 206)}
 a:hover {color:rgb(212, 172, 249)}
 a:active {color: rgb(53, 184, 112);}
+
+
+
+#wrapper { 
+    width: 80%; 
+    margin: auto; }
+.column { 
+    width: 33.33%; 
+    float: left; 
+    margin: 10%;
+}
+
+.column {
+    width: 100%;
+    float: left;
+    margin:0%
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(53, 184, 112);
+    }
+}
