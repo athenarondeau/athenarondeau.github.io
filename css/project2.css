@@ -1,0 +1,214 @@
+
+  body {
+    background-color:rgb(28, 28, 28);
+  }
+  
+  
+  h1 {
+    font-family: 'Italiana', serif;
+    font-size: 10rem;
+    text-align: center;
+    color: rgb(224, 187, 40);
+    margin-top: 5rem;
+  }
+  
+  h2 {
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: bold;
+    color: rgb(224, 187, 40);
+    text-align: center;
+  }
+
+  .two-column-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 800px;
+    margin: 100px auto; 
+    padding: 0 1rem;
+    color: rgb(251, 251, 234);
+    opacity: 0;                     
+    animation: fadeIn 2s ease-in 2s forwards; 
+  }
+  
+  .column {
+    flex: 1;
+    text-align: justify;
+    align-items: center;
+  }
+ 
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+
+.content-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../images/ingredients.JPG);
+  background-size: cover;
+  background-position: center;
+  color: rgb(251, 251, 234);
+  flex-direction: column;
+}
+
+h3 {
+  color: rgb(251, 251, 234);
+  font-family: 'Italiana', serif;
+  font-size: 10rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+h4 {
+  color: rgb(251, 251, 234);
+  font-family: 'Instrument', sans-serif;
+  font-weight: bold;
+}
+
+.ingredients-list {
+  list-style-type: none;       
+  padding: 0;                   
+  font-family: 'Instrument', sans-serif;
+}
+
+.ingredients-list 
+li {
+  margin: 10px 0;            
+  font-size: 15px;           
+  color: rgb(251, 251, 234);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+                
+}
+
+.step01
+li {  margin: 10px 0;            
+  font-size: 15px;           
+  color: rgb(251, 251, 234);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.step01
+ {  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../images/step01-1.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(21, 21, 2);
+  flex-direction: column;
+  animation: 15s infinite;
+  transition: 1s ease-in-out;
+ }
+ 
+  .slideshow-1 {
+  animation: bgSlide1 15s infinite;
+
+
+  @keyframes bgSlide {
+  0% {
+    background-image: url(../images/step01-2.jpg);
+  }
+  33% {
+    background-image: url(../images/step01-3.jpg);
+  }
+  66% {
+    background-image: url(../images/step01-4.jpg);
+  }
+  100% {
+    background-image: url(../images/step01-5.jpg);
+  }
+  }
+}
+
+
+.step02
+li {  margin: 10px 0;            
+  font-size: 15px;           
+  color: rgb(251, 251, 234);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.step02
+ {  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../images/step02-1.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(21, 21, 2);
+  flex-direction: column;
+}
+
+.step03
+li {  margin: 10px 0;            
+  font-size: 15px;           
+  color: rgb(251, 251, 234);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.step03
+ {  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../images/step03-1.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(21, 21, 2);
+  flex-direction: column;
+}
+
+.step04
+li {  margin: 10px 0;            
+  font-size: 15px;           
+  color: rgb(251, 251, 234);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.step04
+ {  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../images/step04-1.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(21, 21, 2);
+  flex-direction: column;
+}
+
+.step05
+li {  margin: 10px 0;            
+  font-size: 15px;           
+  color: rgb(251, 251, 234);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.step05
+ {  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../images/finalpic.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(21, 21, 2);
+  flex-direction: column;
+}
